@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(https://i.pinimg.com/564x/13/99/5c/13995c4401672eadab13d57116ad9243.jpg);
+}
+
+.navbar {
+	height: 80px;
+	background-image: url(https://i.pinimg.com/736x/0e/88/b1/0e88b1de3f43f924e4e8a1e5bb1991e8.jpg);
+	padding: 10px 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar .logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+img {
+	overflow: hidden;
+	border: olive;
+	border-radius: 50%;
+	display: flex;
+	height: 80px;
+}
+
+.menu ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+}
+
+.menu ul li {
+	margin: 0 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Fjalla One', sans-serif;
+	color: rgb(175, 7, 175);
+}
